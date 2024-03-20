@@ -33,6 +33,7 @@ app.get('/', (request, response) => {
 })
 
 app.get('/api/notes', (request, response) => {
+  console.log("request to /api/notes made")
   response.json(notes)
 })
 
